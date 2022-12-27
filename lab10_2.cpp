@@ -2,6 +2,18 @@
 using namespace std;
 
 //Write the function printO() here
+void printO(int y,int x){
+	if(y<=0||x<=0){
+		cout<<"Invalid input";
+	}else{	
+		for(int i=0;i<y;i++){
+			for(int j=0;j<x;j++){
+				cout<<"O";
+			}
+		cout<<endl;
+		}
+	}
+}
 
 int main(){
 	
